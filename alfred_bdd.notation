@@ -488,7 +488,7 @@
       </children>
       <styles xsi:type="notation:FontStyle" xmi:id="_8dJZ8RpyEeq0lbrJ-SWy1A"/>
       <element href="alfred_bdd.uml#_8c3GEBpyEeq0lbrJ-SWy1A"/>
-      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_8dJZ8hpyEeq0lbrJ-SWy1A" points="[400, 178, -643984, -643984]$[400, 100, -643984, -643984]$[160, 100, -643984, -643984]"/>
+      <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_8dJZ8hpyEeq0lbrJ-SWy1A" points="[400, 178, -643984, -643984]$[380, 100, -643984, -643984]$[160, 100, -643984, -643984]"/>
       <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_8dnUABpyEeq0lbrJ-SWy1A" id="(0.43,0.0)"/>
       <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_8dnUARpyEeq0lbrJ-SWy1A" id="(1.0,0.4)"/>
     </edges>
