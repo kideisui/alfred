@@ -6,6 +6,64 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_AldCYBqPEeqRw7Bg9ZRy6w">
     <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_hXDQMBqPEeqRw7Bg9ZRy6w" name="Interaction13">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_u56YQBqPEeqRw7Bg9ZRy6w" name="Batman" coveredBy="_BF_uMBqQEeqRw7Bg9ZRy6w _HeI8ARqQEeqRw7Bg9ZRy6w _Qtiq0RqQEeqRw7Bg9ZRy6w _v6768BqQEeqRw7Bg9ZRy6w _v6768RqQEeqRw7Bg9ZRy6w _zZVfABqREeqRw7Bg9ZRy6w _zZWGEBqREeqRw7Bg9ZRy6w _O-bywBqSEeqRw7Bg9ZRy6w _54dpIBqSEeqRw7Bg9ZRy6w __CAV0RqSEeqRw7Bg9ZRy6w _CtjagBqTEeqRw7Bg9ZRy6w _ExXFURqTEeqRw7Bg9ZRy6w _GFSyYBqTEeqRw7Bg9ZRy6w _LjCNcBqTEeqRw7Bg9ZRy6w _9IRUYBqPEeqRw7Bg9ZRy6w _9IO4IBqPEeqRw7Bg9ZRy6w"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_wn6yMBqPEeqRw7Bg9ZRy6w" name="Alfred" coveredBy="_BF_uMRqQEeqRw7Bg9ZRy6w _HeI8ABqQEeqRw7Bg9ZRy6w _Qtiq0BqQEeqRw7Bg9ZRy6w _zZVfABqREeqRw7Bg9ZRy6w _zZWGEBqREeqRw7Bg9ZRy6w _O-bLsBqSEeqRw7Bg9ZRy6w _54dpIBqSEeqRw7Bg9ZRy6w __CAV0BqSEeqRw7Bg9ZRy6w _CtjagBqTEeqRw7Bg9ZRy6w _ExXFUBqTEeqRw7Bg9ZRy6w _GFSyYBqTEeqRw7Bg9ZRy6w _LjBmYBqTEeqRw7Bg9ZRy6w __MIpkBqPEeqRw7Bg9ZRy6w __MGNUBqPEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BF_uMBqQEeqRw7Bg9ZRy6w" name="Message9SendEvent" covered="_u56YQBqPEeqRw7Bg9ZRy6w" message="_BF_HIBqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_9IO4IBqPEeqRw7Bg9ZRy6w" name="ActionExecutionSpecification3" covered="_u56YQBqPEeqRw7Bg9ZRy6w" finish="_9IRUYBqPEeqRw7Bg9ZRy6w" start="_BF_uMBqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BF_uMRqQEeqRw7Bg9ZRy6w" name="Message9ReceiveEvent" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" message="_BF_HIBqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="__MGNUBqPEeqRw7Bg9ZRy6w" name="ActionExecutionSpecification6" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" finish="__MIpkBqPEeqRw7Bg9ZRy6w" start="_BF_uMRqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeI8ABqQEeqRw7Bg9ZRy6w" name="Message10SendEvent" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" message="_HeHt4BqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HeI8ARqQEeqRw7Bg9ZRy6w" name="Message10ReceiveEvent" covered="_u56YQBqPEeqRw7Bg9ZRy6w" message="_HeHt4BqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qtiq0BqQEeqRw7Bg9ZRy6w" name="Message13SendEvent" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" message="_QtiDwBqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Qtiq0RqQEeqRw7Bg9ZRy6w" name="Message13ReceiveEvent" covered="_u56YQBqPEeqRw7Bg9ZRy6w" message="_QtiDwBqQEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_v6768BqQEeqRw7Bg9ZRy6w" name="CombinedFragment16" covered="_u56YQBqPEeqRw7Bg9ZRy6w" interactionOperator="loop">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_v6768RqQEeqRw7Bg9ZRy6w" name="InteractionOperand0" covered="_u56YQBqPEeqRw7Bg9ZRy6w">
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_zZVfABqREeqRw7Bg9ZRy6w" name="CombinedFragment17" covered="_u56YQBqPEeqRw7Bg9ZRy6w _wn6yMBqPEeqRw7Bg9ZRy6w" interactionOperator="alt">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_zZWGEBqREeqRw7Bg9ZRy6w" name="InteractionOperand0" covered="_u56YQBqPEeqRw7Bg9ZRy6w _wn6yMBqPEeqRw7Bg9ZRy6w">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O-bLsBqSEeqRw7Bg9ZRy6w" name="Message17SendEvent" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" message="_O-akoBqSEeqRw7Bg9ZRy6w"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O-bywBqSEeqRw7Bg9ZRy6w" name="Message17ReceiveEvent" covered="_u56YQBqPEeqRw7Bg9ZRy6w" message="_O-akoBqSEeqRw7Bg9ZRy6w"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_zZWGERqREeqRw7Bg9ZRy6w" name="guard">
+              <specification xmi:type="uml:LiteralString" xmi:id="__TSvkBqREeqRw7Bg9ZRy6w" value="Selected = température"/>
+            </guard>
+          </operand>
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_54dpIBqSEeqRw7Bg9ZRy6w" name="InteractionOperand2" covered="_u56YQBqPEeqRw7Bg9ZRy6w _wn6yMBqPEeqRw7Bg9ZRy6w">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__CAV0BqSEeqRw7Bg9ZRy6w" name="Message18SendEvent" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" message="__B_uwBqSEeqRw7Bg9ZRy6w"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__CAV0RqSEeqRw7Bg9ZRy6w" name="Message18ReceiveEvent" covered="_u56YQBqPEeqRw7Bg9ZRy6w" message="__B_uwBqSEeqRw7Bg9ZRy6w"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_54e3QBqSEeqRw7Bg9ZRy6w" name="guard">
+              <specification xmi:type="uml:LiteralString" xmi:id="_8EAToBqSEeqRw7Bg9ZRy6w" value="Selected = CO2"/>
+            </guard>
+          </operand>
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_CtjagBqTEeqRw7Bg9ZRy6w" name="InteractionOperand3" covered="_u56YQBqPEeqRw7Bg9ZRy6w _wn6yMBqPEeqRw7Bg9ZRy6w">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ExXFUBqTEeqRw7Bg9ZRy6w" name="Message19SendEvent" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" message="_ExWeQBqTEeqRw7Bg9ZRy6w"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ExXFURqTEeqRw7Bg9ZRy6w" name="Message19ReceiveEvent" covered="_u56YQBqPEeqRw7Bg9ZRy6w" message="_ExWeQBqTEeqRw7Bg9ZRy6w"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_CtkBkBqTEeqRw7Bg9ZRy6w" name="guard">
+              <specification xmi:type="uml:LiteralString" xmi:id="_EbSHoBqTEeqRw7Bg9ZRy6w" value="Selected = COV"/>
+            </guard>
+          </operand>
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_GFSyYBqTEeqRw7Bg9ZRy6w" name="InteractionOperand4" covered="_u56YQBqPEeqRw7Bg9ZRy6w _wn6yMBqPEeqRw7Bg9ZRy6w">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LjBmYBqTEeqRw7Bg9ZRy6w" name="Message20SendEvent" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" message="_LjA_UBqTEeqRw7Bg9ZRy6w"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_LjCNcBqTEeqRw7Bg9ZRy6w" name="Message20ReceiveEvent" covered="_u56YQBqPEeqRw7Bg9ZRy6w" message="_LjA_UBqTEeqRw7Bg9ZRy6w"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_GFTZcBqTEeqRw7Bg9ZRy6w" name="guard">
+              <specification xmi:type="uml:LiteralString" xmi:id="_LMU9oBqTEeqRw7Bg9ZRy6w" value="Selected = prodElec"/>
+            </guard>
+          </operand>
+        </fragment>
+        <guard xmi:type="uml:InteractionConstraint" xmi:id="_v6768hqQEeqRw7Bg9ZRy6w" name="guard">
+          <specification xmi:type="uml:LiteralString" xmi:id="_5QqUMBqQEeqRw7Bg9ZRy6w" value="While state = on"/>
+        </guard>
+      </operand>
+    </fragment>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_9IRUYBqPEeqRw7Bg9ZRy6w" name="ActionExecutionSpecification3Finish" covered="_u56YQBqPEeqRw7Bg9ZRy6w" execution="_9IO4IBqPEeqRw7Bg9ZRy6w"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="__MIpkBqPEeqRw7Bg9ZRy6w" name="ActionExecutionSpecification6Finish" covered="_wn6yMBqPEeqRw7Bg9ZRy6w" execution="__MGNUBqPEeqRw7Bg9ZRy6w"/>
+    <message xmi:type="uml:Message" xmi:id="_BF_HIBqQEeqRw7Bg9ZRy6w" name="Allumage" messageSort="asynchCall" receiveEvent="_BF_uMRqQEeqRw7Bg9ZRy6w" sendEvent="_BF_uMBqQEeqRw7Bg9ZRy6w"/>
+    <message xmi:type="uml:Message" xmi:id="_HeHt4BqQEeqRw7Bg9ZRy6w" name="Alfred operationnel" messageSort="reply" receiveEvent="_HeI8ARqQEeqRw7Bg9ZRy6w" sendEvent="_HeI8ABqQEeqRw7Bg9ZRy6w"/>
+    <message xmi:type="uml:Message" xmi:id="_QtiDwBqQEeqRw7Bg9ZRy6w" name="Interface Alfred allumé" messageSort="asynchCall" receiveEvent="_Qtiq0RqQEeqRw7Bg9ZRy6w" sendEvent="_Qtiq0BqQEeqRw7Bg9ZRy6w"/>
+    <message xmi:type="uml:Message" xmi:id="_O-akoBqSEeqRw7Bg9ZRy6w" name="Return température" messageSort="asynchCall" receiveEvent="_O-bywBqSEeqRw7Bg9ZRy6w" sendEvent="_O-bLsBqSEeqRw7Bg9ZRy6w"/>
+    <message xmi:type="uml:Message" xmi:id="__B_uwBqSEeqRw7Bg9ZRy6w" name="Return % CO2" messageSort="asynchCall" receiveEvent="__CAV0RqSEeqRw7Bg9ZRy6w" sendEvent="__CAV0BqSEeqRw7Bg9ZRy6w"/>
+    <message xmi:type="uml:Message" xmi:id="_ExWeQBqTEeqRw7Bg9ZRy6w" name="Return % COV" messageSort="asynchCall" receiveEvent="_ExXFURqTEeqRw7Bg9ZRy6w" sendEvent="_ExXFUBqTEeqRw7Bg9ZRy6w"/>
+    <message xmi:type="uml:Message" xmi:id="_LjA_UBqTEeqRw7Bg9ZRy6w" name="Return Production electricité" messageSort="asynchCall" receiveEvent="_LjCNcBqTEeqRw7Bg9ZRy6w" sendEvent="_LjBmYBqTEeqRw7Bg9ZRy6w"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_AisCQBqPEeqRw7Bg9ZRy6w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AitQYBqPEeqRw7Bg9ZRy6w" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
