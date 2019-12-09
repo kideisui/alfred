@@ -8,6 +8,7 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_1XDwwBphEeqAq7XFf1YHvg" name="Block13"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IBJxABplEeq0lbrJ-SWy1A" name="Block14"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1TEooBphEeqAq7XFf1YHvg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1TEooRphEeqAq7XFf1YHvg" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -70,4 +71,5 @@
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_1XWrsBphEeqAq7XFf1YHvg" base_Class="_1XDwwBphEeqAq7XFf1YHvg"/>
+  <Blocks:Block xmi:id="_IDi9sBplEeq0lbrJ-SWy1A" base_Class="_IBJxABplEeq0lbrJ-SWy1A"/>
 </xmi:XMI>
