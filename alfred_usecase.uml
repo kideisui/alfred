@@ -11,6 +11,12 @@
     <extend xmi:type="uml:Extend" xmi:id="_WMSnwBpqEeqAq7XFf1YHvg" extendedCase="_WLgkoBpqEeqAq7XFf1YHvg" extensionLocation="_WMTO0BpqEeqAq7XFf1YHvg"/>
     <extend xmi:type="uml:Extend" xmi:id="_iaKS0BpqEeqAq7XFf1YHvg" extendedCase="_iZe9YBpqEeqAq7XFf1YHvg" extensionLocation="_iaK54BpqEeqAq7XFf1YHvg"/>
     <extend xmi:type="uml:Extend" xmi:id="_mDETMBpqEeqAq7XFf1YHvg" extendedCase="_mCQa4BpqEeqAq7XFf1YHvg" extensionLocation="_mDFhUBpqEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_MPlp4BpxEeqAq7XFf1YHvg" extendedCase="_CjXcMBpxEeqAq7XFf1YHvg" extensionLocation="_MPlp4RpxEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_NAuy8BpxEeqAq7XFf1YHvg" extendedCase="_4Dj1cBpwEeqAq7XFf1YHvg" extensionLocation="_NAuy8RpxEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_NxKKUBpxEeqAq7XFf1YHvg" extendedCase="_7JbaMBpwEeqAq7XFf1YHvg" extensionLocation="_NxKKURpxEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_Va7YEBpxEeqAq7XFf1YHvg" extendedCase="_VaodIBpxEeqAq7XFf1YHvg" extensionLocation="_Va7YERpxEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_cVk2ABpxEeqAq7XFf1YHvg" extendedCase="_cVR7EBpxEeqAq7XFf1YHvg" extensionLocation="_cVk2ARpxEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_fSdd4BpxEeqAq7XFf1YHvg" extendedCase="_fSBZABpxEeqAq7XFf1YHvg" extensionLocation="_fSdd4RpxEeqAq7XFf1YHvg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_WLgkoBpqEeqAq7XFf1YHvg" name="RegarderTempérature">
     <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_WMTO0BpqEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
@@ -27,6 +33,27 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_sPk4whpqEeqAq7XFf1YHvg" name="regarderinformation" type="_vBtJgBpnEeqAq7XFf1YHvg" association="_sPkRsBpqEeqAq7XFf1YHvg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_sPk4wxpqEeqAq7XFf1YHvg" name="batman" type="_qfosgBpnEeqAq7XFf1YHvg" association="_sPkRsBpqEeqAq7XFf1YHvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4Dj1cBpwEeqAq7XFf1YHvg" name="RegarderTauxCOV">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_4Dj1cRpwEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NAuy8RpxEeqAq7XFf1YHvg" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7JbaMBpwEeqAq7XFf1YHvg" name="RegarderDirectionDeplacementAir">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_7JbaMRpwEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NxKKURpxEeqAq7XFf1YHvg" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CjXcMBpxEeqAq7XFf1YHvg" name="RegarderConsommationElectrique">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_CjXcMRpxEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_MPlp4RpxEeqAq7XFf1YHvg" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VaodIBpxEeqAq7XFf1YHvg" name="RegarderProductionElectrique">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Va7YERpxEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cVR7EBpxEeqAq7XFf1YHvg" name="RegarderChargeVoirture">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cVk2ARpxEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fSBZABpxEeqAq7XFf1YHvg" name="RegarderQuantitéEauChaude">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fSdd4RpxEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xQinUBphEeqAq7XFf1YHvg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xQlDkBphEeqAq7XFf1YHvg" source="http://www.eclipse.org/uml2/2.0.0/UML">
