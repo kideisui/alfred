@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_1XdZYBphEeqAq7XFf1YHvg" type="CompositeStructure" name="SysML 1.6 Internal Block Diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" xmi:id="_1Xi48BphEeqAq7XFf1YHvg" type="Class_Shape">
+    <children xsi:type="notation:DecorationNode" xmi:id="_1XjgABphEeqAq7XFf1YHvg" type="Class_NameLabel"/>
+    <children xsi:type="notation:DecorationNode" xmi:id="_1XjgARphEeqAq7XFf1YHvg" type="Class_FloatingNameLabel">
+      <layoutConstraint xsi:type="notation:Location" xmi:id="_1XjgAhphEeqAq7XFf1YHvg" y="15"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_1XkuIBphEeqAq7XFf1YHvg" type="Class_StructureCompartment">
+      <styles xsi:type="notation:TitleStyle" xmi:id="_1XkuIRphEeqAq7XFf1YHvg"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_1XkuIhphEeqAq7XFf1YHvg"/>
+    </children>
+    <element href="alfred_ibd.uml#_1XDwwBphEeqAq7XFf1YHvg"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_1Xi48RphEeqAq7XFf1YHvg" x="40" y="40" width="500" height="250"/>
+  </children>
+  <styles xsi:type="notation:StringValueStyle" xmi:id="_1XdZYRphEeqAq7XFf1YHvg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_1XdZYhphEeqAq7XFf1YHvg"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_1XdZYxphEeqAq7XFf1YHvg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.internalblock">
+    <owner href="alfred_ibd.uml#_1Q3pMBphEeqAq7XFf1YHvg"/>
+  </styles>
+  <element href="alfred_ibd.uml#_1XDwwBphEeqAq7XFf1YHvg"/>
+</notation:Diagram>
