@@ -6,6 +6,185 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_5gxYIBphEeqAq7XFf1YHvg">
     <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_UuJR8BpuEeq0lbrJ-SWy1A" name="Alfred">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_k71EsRpyEeq0lbrJ-SWy1A" name="enceinte" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_k7zPgBpyEeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tsuSkBpyEeq0lbrJ-SWy1A" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_b3T3kBpvEeq0lbrJ-SWy1A" name="Capteur de mesure de température"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_fL7C8BpvEeq0lbrJ-SWy1A" name="Ordinateur"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_jBV1UBpvEeq0lbrJ-SWy1A" name="Ecran"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_qEg9IBpvEeq0lbrJ-SWy1A" name="Capteur de mesure de CO2"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_sfcugBpvEeq0lbrJ-SWy1A" name="Capteur de charge de la voiture"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_EB0MoBpwEeq0lbrJ-SWy1A" name="Capteur mesure d'humidité"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_KbN-sBpwEeq0lbrJ-SWy1A" name="Capteur de mesure de COV"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_kqQecBpwEeq0lbrJ-SWy1A" name="Capteur de mesure de déplacement d'air"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_pzwH0BpwEeq0lbrJ-SWy1A" name="Capteur de lecture de consomation électrique"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_0FbzABpwEeq0lbrJ-SWy1A" name="Lecteur de charge de voiture electrique"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_1AzPEBpwEeq0lbrJ-SWy1A" name="Capteur de fermeture de porte/fenêtre"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_1L_LYBpwEeq0lbrJ-SWy1A" name="Capteur de présence"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_1P2XsBpwEeq0lbrJ-SWy1A" name="Capteur de mesure de consommation d'eau"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_dYXIsBpxEeq0lbrJ-SWy1A" name="Enceinte"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4cut8BpxEeq0lbrJ-SWy1A" memberEnd="_4c5tEBpxEeq0lbrJ-SWy1A _4c7iQBpxEeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4c334BpxEeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4c4e8BpxEeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4c5tEBpxEeq0lbrJ-SWy1A" name="ecran" type="_jBV1UBpvEeq0lbrJ-SWy1A" aggregation="composite" association="_4cut8BpxEeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dMpLcBpyEeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4c7iQBpxEeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_4cut8BpxEeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e9_0UBpyEeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Qc47UBpyEeq0lbrJ-SWy1A" memberEnd="_Qc7XkBpyEeq0lbrJ-SWy1A _Qc8lsBpyEeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qc6wgBpyEeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qc6wgRpyEeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Qc7XkBpyEeq0lbrJ-SWy1A" name="ordinateur" type="_fL7C8BpvEeq0lbrJ-SWy1A" aggregation="composite" association="_Qc47UBpyEeq0lbrJ-SWy1A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Qc8lsBpyEeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_Qc47UBpyEeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hJVqgBpyEeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k7zPgBpyEeq0lbrJ-SWy1A" visibility="package" memberEnd="_k71EsRpyEeq0lbrJ-SWy1A _k72S0BpyEeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_k70doBpyEeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_k71EsBpyEeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k72S0BpyEeq0lbrJ-SWy1A" name="alfred" type="_dYXIsBpxEeq0lbrJ-SWy1A" aggregation="composite" association="_k7zPgBpyEeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wkNdEBpyEeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8c3GEBpyEeq0lbrJ-SWy1A" memberEnd="_8c3tIhpyEeq0lbrJ-SWy1A _8c4UMBpyEeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8c3tIBpyEeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8c3tIRpyEeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8c3tIhpyEeq0lbrJ-SWy1A" name="enceinte" type="_dYXIsBpxEeq0lbrJ-SWy1A" aggregation="composite" association="_8c3GEBpyEeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BuILYBpzEeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8c4UMBpyEeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_8c3GEBpyEeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CmXa8BpzEeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EsR-kBpzEeq0lbrJ-SWy1A" memberEnd="_EsSlohpzEeq0lbrJ-SWy1A _EsTMsBpzEeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EsSloBpzEeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EsSloRpzEeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EsSlohpzEeq0lbrJ-SWy1A" name="capteur de mesure de température" type="_b3T3kBpvEeq0lbrJ-SWy1A" aggregation="composite" association="_EsR-kBpzEeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A4d5QBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EsTMsBpzEeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_EsR-kBpzEeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AW-80Bp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FZCW4BpzEeq0lbrJ-SWy1A" memberEnd="_FZC98hpzEeq0lbrJ-SWy1A _FZC98xpzEeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FZC98BpzEeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FZC98RpzEeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FZC98hpzEeq0lbrJ-SWy1A" name="capteur de mesure de co2" type="_qEg9IBpvEeq0lbrJ-SWy1A" aggregation="composite" association="_FZCW4BpzEeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DCbPYBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FZC98xpzEeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_FZCW4BpzEeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ClcYcBp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1gdfMBpzEeq0lbrJ-SWy1A" memberEnd="_1geGQhpzEeq0lbrJ-SWy1A _1getUBpzEeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1geGQBpzEeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1geGQRpzEeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1geGQhpzEeq0lbrJ-SWy1A" name="capteur mesure d'humidité" type="_EB0MoBpwEeq0lbrJ-SWy1A" aggregation="composite" association="_1gdfMBpzEeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-aXfIBpzEeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1getUBpzEeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_1gdfMBpzEeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_93sP4BpzEeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_HjRkYBp0Eeq0lbrJ-SWy1A" memberEnd="_HjSyghp0Eeq0lbrJ-SWy1A _HjTZkBp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HjSygBp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HjSygRp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HjSyghp0Eeq0lbrJ-SWy1A" name="capteur de charge de la voiture" type="_sfcugBpvEeq0lbrJ-SWy1A" aggregation="composite" association="_HjRkYBp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LTZnEBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_HjTZkBp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_HjRkYBp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KmKtoBp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N0V50Bp0Eeq0lbrJ-SWy1A" memberEnd="_N0XH8hp0Eeq0lbrJ-SWy1A _N0XvABp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N0XH8Bp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N0XH8Rp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N0XH8hp0Eeq0lbrJ-SWy1A" name="lecteur de charge de voiture electrique" type="_0FbzABpwEeq0lbrJ-SWy1A" aggregation="composite" association="_N0V50Bp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SySagBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N0XvABp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_N0V50Bp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TPlagBp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UT4wIBp0Eeq0lbrJ-SWy1A" memberEnd="_UT6lUhp0Eeq0lbrJ-SWy1A _UT7MYBp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UT6lUBp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UT6lURp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UT6lUhp0Eeq0lbrJ-SWy1A" name="capteur de mesure de consommation d'eau" type="_1P2XsBpwEeq0lbrJ-SWy1A" aggregation="composite" association="_UT4wIBp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YBV5UBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UT7MYBp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_UT4wIBp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YcbS0Bp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_b7LRoBp0Eeq0lbrJ-SWy1A" memberEnd="_b7L4shp0Eeq0lbrJ-SWy1A _b7MfwBp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b7L4sBp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b7L4sRp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_b7L4shp0Eeq0lbrJ-SWy1A" name="capteur de mesure de cov" type="_KbN-sBpwEeq0lbrJ-SWy1A" aggregation="composite" association="_b7LRoBp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fj4dsBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_b7MfwBp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_b7LRoBp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fM0BgBp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jGV30Bp0Eeq0lbrJ-SWy1A" memberEnd="_jGXF8Rp0Eeq0lbrJ-SWy1A _jGXtABp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jGWe4Bp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jGXF8Bp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jGXF8Rp0Eeq0lbrJ-SWy1A" name="capteur de mesure de déplacement d'air" type="_kqQecBpwEeq0lbrJ-SWy1A" aggregation="composite" association="_jGV30Bp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m_qSwBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jGXtABp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_jGV30Bp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nc1W8Bp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o50SUBp0Eeq0lbrJ-SWy1A" memberEnd="_o52HgBp0Eeq0lbrJ-SWy1A _o52ukBp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o51gcBp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o51gcRp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o52HgBp0Eeq0lbrJ-SWy1A" name="capteur de lecture de consomation électrique" type="_pzwH0BpwEeq0lbrJ-SWy1A" aggregation="composite" association="_o50SUBp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sV0fIBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o52ukBp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_o50SUBp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sw-KEBp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wPuv8Bp0Eeq0lbrJ-SWy1A" visibility="public" memberEnd="_wPv-Ehp0Eeq0lbrJ-SWy1A _wPwlIBp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wPv-EBp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wPv-ERp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wPv-Ehp0Eeq0lbrJ-SWy1A" name="capteur de présence" type="_1L_LYBpwEeq0lbrJ-SWy1A" aggregation="composite" association="_wPuv8Bp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4uGqcBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wPwlIBp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_wPuv8Bp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5KKUUBp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_78q4MBp0Eeq0lbrJ-SWy1A" memberEnd="_78stYBp0Eeq0lbrJ-SWy1A _78t7gBp0Eeq0lbrJ-SWy1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_78sGUBp0Eeq0lbrJ-SWy1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_78sGURp0Eeq0lbrJ-SWy1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_78stYBp0Eeq0lbrJ-SWy1A" name="capteur de fermeture de porte/fenêtre" type="_1AzPEBpwEeq0lbrJ-SWy1A" aggregation="composite" association="_78q4MBp0Eeq0lbrJ-SWy1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__OB7QBp0Eeq0lbrJ-SWy1A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_78t7gBp0Eeq0lbrJ-SWy1A" name="alfred" type="_UuJR8BpuEeq0lbrJ-SWy1A" association="_78q4MBp0Eeq0lbrJ-SWy1A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__zLPsBp0Eeq0lbrJ-SWy1A"/>
+    </ownedEnd>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_5drA0BphEeqAq7XFf1YHvg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5drn4BphEeqAq7XFf1YHvg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
