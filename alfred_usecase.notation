@@ -116,7 +116,7 @@
     <styles xsi:type="notation:FontStyle" xmi:id="_mDcGoRpqEeqAq7XFf1YHvg"/>
     <element href="alfred_usecase.uml#_mDETMBpqEeqAq7XFf1YHvg"/>
     <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_mDcGohpqEeqAq7XFf1YHvg" points="[270, 120, -643984, -643984]$[0, 0, -643984, -643984]"/>
-    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mD5ZoBpqEeqAq7XFf1YHvg" id="(0.5,1.0)"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_mD5ZoBpqEeqAq7XFf1YHvg" id="(0.6666666666666666,0.9666666666666667)"/>
     <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_ZbaZsBprEeqAq7XFf1YHvg" id="(0.1568627450980392,0.0)"/>
   </edges>
   <edges xsi:type="notation:Connector" xmi:id="_sPmt8BpqEeqAq7XFf1YHvg" type="Association_Edge" source="_qfydgBpnEeqAq7XFf1YHvg" target="_vBwM0BpnEeqAq7XFf1YHvg">
