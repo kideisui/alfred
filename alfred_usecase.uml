@@ -6,6 +6,28 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_xUTF8BphEeqAq7XFf1YHvg">
     <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qfosgBpnEeqAq7XFf1YHvg" name="Batman"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vBtJgBpnEeqAq7XFf1YHvg" name="RegarderInformationMaison">
+    <extend xmi:type="uml:Extend" xmi:id="_WMSnwBpqEeqAq7XFf1YHvg" extendedCase="_WLgkoBpqEeqAq7XFf1YHvg" extensionLocation="_WMTO0BpqEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_iaKS0BpqEeqAq7XFf1YHvg" extendedCase="_iZe9YBpqEeqAq7XFf1YHvg" extensionLocation="_iaK54BpqEeqAq7XFf1YHvg"/>
+    <extend xmi:type="uml:Extend" xmi:id="_mDETMBpqEeqAq7XFf1YHvg" extendedCase="_mCQa4BpqEeqAq7XFf1YHvg" extensionLocation="_mDFhUBpqEeqAq7XFf1YHvg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WLgkoBpqEeqAq7XFf1YHvg" name="RegarderTempérature">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_WMTO0BpqEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iZe9YBpqEeqAq7XFf1YHvg" name="RegarderTauxCO2">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_iaK54BpqEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mCQa4BpqEeqAq7XFf1YHvg" name="RegarderTauxHumidité">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_mDFhUBpqEeqAq7XFf1YHvg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sPkRsBpqEeqAq7XFf1YHvg" memberEnd="_sPk4whpqEeqAq7XFf1YHvg _sPk4wxpqEeqAq7XFf1YHvg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sPk4wBpqEeqAq7XFf1YHvg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sPk4wRpqEeqAq7XFf1YHvg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sPk4whpqEeqAq7XFf1YHvg" name="regarderinformation" type="_vBtJgBpnEeqAq7XFf1YHvg" association="_sPkRsBpqEeqAq7XFf1YHvg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_sPk4wxpqEeqAq7XFf1YHvg" name="batman" type="_qfosgBpnEeqAq7XFf1YHvg" association="_sPkRsBpqEeqAq7XFf1YHvg"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xQinUBphEeqAq7XFf1YHvg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xQlDkBphEeqAq7XFf1YHvg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
